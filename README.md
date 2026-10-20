@@ -4,6 +4,12 @@
 
 Access Assurance is a private controlled alpha for planning access removal, authorizing the intervention, and checking what the application actually permits afterward.
 
+**Try the free terminal edition:** [Access Assurance Lite](https://github.com/artifexignotvs/access-assurance-lite)
+is a separate MIT-licensed checker with a runnable local demo, cooperating-resource
+probes, repeated checks, historical evidence and JSON/CSV export. The commercial
+core stays private. Lite does not include the private planner, approval workflow,
+administrative adapters or signed receipts described in this presentation.
+
 [Explore the walkthrough](https://artifexignotvs.github.io/access-assurance/) · [Watch the 90-second illustrated replay](https://artifexignotvs.github.io/access-assurance/assets/recorded-walkthrough.mp4) · [Read the transcript](WALKTHROUGH.md)
 
 This repository presents a recorded laboratory evaluation and its limits. It does not contain the product implementation, an installer, customer data, or a publicly runnable service.
@@ -49,4 +55,4 @@ Technical feedback about token lifetime, resource enforcement, observation bound
 
 ## Presentation and rights
 
-The files in `dist/` render this presentation only; they do not implement the access-control engine. The product source, adapters, operational data, and signing material are not distributed. See [rights and reuse](RIGHTS.md).
+The files in `dist/` render this presentation only; they do not implement the access-control engine. The commercial product source, private adapters, operational data, and signing material are not distributed here. The separate Lite repository has its own MIT license. See [presentation rights and reuse](RIGHTS.md).
